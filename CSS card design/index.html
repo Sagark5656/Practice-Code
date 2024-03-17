@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS card design</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        body {
+            background-color: gray;
+            padding: 45px;
+        }
+
+        .card {
+            width: 198px;
+            background-color: white;
+            height: 300px;
+            border-radius: 7px;
+            margin: 4px;
+            padding: 34px;
+        }
+
+        .image {
+            padding: 5px;
+        }
+
+        .image img {
+            border-radius: 7px;
+        }
+        .capsules{
+            padding: 0 28px 0 14px;
+        }
+        .capsules span{
+            border: 1px solid gray;
+            padding: 0px 6px;
+            border-radius: 7px;
+        }
+        .content{
+            padding: 7px;
+        }
+        .content p{
+            font-size: 15px;
+            color: gray;
+            padding: 10px 10px 0 0;
+        }
+        .button{
+            text-align: center;
+            padding: 10px;
+            padding: 7px 15px;
+            border-radius: 15px;
+            background-color: rgb(216, 236, 253);
+            color: rgb(14, 150, 234);
+            font-size: 10px;
+            margin-top: 7px;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        /* .button button{
+            padding: 7px 15px;
+            border-radius: 15px;
+            background-color: rgb(216, 236, 253);
+            color: rgb(14, 150, 234);
+            font-size: 10px;
+            margin-top: 7px;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .button button:hover{
+            background-color: rgb(194, 225, 246);
+            color: rgb(10, 136, 214);
+        } */
+
+        .button button:hover{
+            background-color: blue;
+            color: brown;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="image" width: 25px>
+            <img width="188"
+                src="https://images.pexels.com/photos/3880179/pexels-photo-3880179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="">
+        </div>
+        <div class="capsules">
+            <span>nature</span>
+            <span>lake</span>
+        </div>
+        <div class="content">
+            <h1>Sagar k</h1>
+            <p>this is Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, repellendus?</p>
+        </div>
+        <div class="button">read more</div>
+    </div>
+</body>
+
+</html>

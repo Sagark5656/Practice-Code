@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .box:first-child{
+            background-color: red;
+        } */
+        /* .box::first-line{
+            color: red;
+        } */
+        /* .boxex {
+            border: 2px solid red;
+        }
+        .boxex *{
+            border: 2px solid black;
+        } */
+        /* .box:nth-child(2){
+            background-color: red;
+        } */
+        .boxex::before {
+            content: "sagar has started coding";
+            color: blue;
+        }
+        .boxex::after{
+            content:"sagar has ended coding for today" ;
+        color: red;
+        }
+        ::selection{
+            background-color: black;
+            color: wheat;
+        }
+        .box::first-letter {
+            font-size: larger;
+            color: red;
+        }
+        input::placeholder{
+            color: blue;
+            background-color: yellow;
+        }
+
+        
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="boxex">
+        <div class="box">hey, I am box Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum asperiores modi amet quibusdam officia quasi itaque tenetur consequuntur odio velit dicta quidem veritatis quia quo dolor, ducimus quam ex non.</div>
+        <div class="box">I am a box</div>
+        <div class="box">I am also a box</div>
+    </div>
+    <input type="text" placeholder="let me know your name">
+
+</body>
+</html>

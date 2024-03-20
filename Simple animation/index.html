@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: blue;
+            width: 80vw;
+            height: 70vw;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        .box{
+            background-color: red;
+            width: 8vw;
+            height: 7vw;
+            padding: 5px;
+            margin: 5px;
+            animation: SagarAni;
+            animation-duration: 6s;
+            animation-delay: 2s ;
+            animation-timing-function: ease-in-out;
+            animation-direction: ;
+            animation-iteration-count: 2;
+        }
+
+        @keyframes SagarAni {
+            from {
+                background-color: yellow;
+
+            }
+            to {
+                transform: translateX(1000px);
+                background-color: yellowgreen;
+            }
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            BOX
+        </div>
+    </div>
+    
+</body>
+</html>
